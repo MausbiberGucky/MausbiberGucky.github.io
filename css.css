@@ -1,0 +1,31 @@
+body {
+	background: #efefef;
+}
+
+article {
+	width: 22cm;
+	margin: 0.5cm auto;
+	padding: 1cm;
+	position: relative;
+	
+	font-family: 'PT Serif', Serif;
+	font-size: 14pt;
+	
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+p {
+	text-align: justify;
+	hyphens: auto;
+}
+
+sub {
+	font-size: 12pt;
+}
+
+@media only screen and (max-width: 25cm) {
+	article {
+		width: 90%;
+	}
+}
