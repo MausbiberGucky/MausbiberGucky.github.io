@@ -24,6 +24,34 @@ sub {
 	font-size: 12pt;
 }
 
+table {
+	width: 100%;
+}
+
+table, th, td {
+	text-align: left;
+	padding: 3pt;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+th {
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+
+th:last-child {
+	border-right: none;
+}
+
+td:last-child {
+	border-right: none;
+}
+
+tr:last-child {
+	border-right: none;
+}
+
 @media only screen and (max-width: 25cm) {
 	article {
 		width: 90%;
