@@ -29,8 +29,9 @@ table {
 }
 
 table, th, td {
+	font-size: 11pt;
 	text-align: left;
-	padding: 3pt;
+	padding: 1pt;
 	border-collapse: collapse;
 	border: 1px solid black;
 }
